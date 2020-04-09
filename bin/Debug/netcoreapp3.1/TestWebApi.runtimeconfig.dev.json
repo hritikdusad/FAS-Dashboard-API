@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/hritik/.dotnet/store/|arch|/|tfm|",
+      "/home/hritik/.nuget/packages"
+    ]
+  }
+}
