@@ -8,5 +8,6 @@ namespace Models
         public int IsActive {get; set;}
         public DateTime StartDateOnFAS {get; set;}
         public DateTime CreatedOnFAS {get; set;}
+        public double FundPerformanceTime {get; set;} 
     }
 }
