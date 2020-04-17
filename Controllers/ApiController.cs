@@ -38,7 +38,7 @@ namespace Controllers
             new FundDetails{FundId=24, FundName = "Test24", IsActive=1, StartDateOnFAS=new DateTime(2013,2,25), CreatedOnFAS=new DateTime(2013,2,25),  FundPerformanceTime=11.31},
             new FundDetails{FundId=25, FundName = "Test25", IsActive=1, StartDateOnFAS=new DateTime(2013,2,25), CreatedOnFAS=new DateTime(2013,2,25),  FundPerformanceTime=11.27},
             new FundDetails{FundId=26, FundName = "Test26", IsActive=0, StartDateOnFAS=new DateTime(2013,3,25), CreatedOnFAS=new DateTime(2013,3,25),  FundPerformanceTime=14.79},
-            new FundDetails{FundId=27, FundName = "Test27", IsActive=0, StartDateOnFAS=new DateTime(2014,3,25), CreatedOnFAS=new DateTime(2014,3,25),  FundPerformanceTime=12.91},
+            new FundDetails{FundId=27, FundName = "Test27", IsActive=0, StartDateOnFAS=new DateTime(2014,4,25), CreatedOnFAS=new DateTime(2014,3,25),  FundPerformanceTime=12.91},
             new FundDetails{FundId=28, FundName = "Test28", IsActive=1, StartDateOnFAS=new DateTime(2015,7,25), CreatedOnFAS=new DateTime(2015,7,25),  FundPerformanceTime=14.29},
             new FundDetails{FundId=29, FundName = "Test29", IsActive=0, StartDateOnFAS=new DateTime(2016,7,25), CreatedOnFAS=new DateTime(2016,7,25),  FundPerformanceTime=13.21},
             new FundDetails{FundId=30, FundName = "Test30", IsActive=1, StartDateOnFAS=new DateTime(2016,8,18), CreatedOnFAS=new DateTime(2016,8,18),  FundPerformanceTime=11.74},
@@ -48,7 +48,39 @@ namespace Controllers
             new FundDetails{FundId=34, FundName = "Test34", IsActive=0, StartDateOnFAS=new DateTime(2020,12,18), CreatedOnFAS=new DateTime(2020,12,18),FundPerformanceTime=12.04},
             new FundDetails{FundId=35, FundName = "Test35", IsActive=1, StartDateOnFAS=new DateTime(2020,10,15), CreatedOnFAS=new DateTime(2020,10,15),FundPerformanceTime=13.79},
             new FundDetails{FundId=36, FundName = "Test36", IsActive=0, StartDateOnFAS=new DateTime(2012,10,15), CreatedOnFAS=new DateTime(2012,10,15),FundPerformanceTime=10.10},
-            new FundDetails{FundId=37, FundName = "Test37", IsActive=1, StartDateOnFAS=new DateTime(2020,10,15), CreatedOnFAS=new DateTime(2020,10,15),FundPerformanceTime=13.25}  
+            new FundDetails{FundId=37, FundName = "Test37", IsActive=1, StartDateOnFAS=new DateTime(2020,10,15), CreatedOnFAS=new DateTime(2020,10,15),FundPerformanceTime=13.25},
+            new FundDetails{FundId=38, FundName = "Test38", IsActive=1, StartDateOnFAS=new DateTime(2020,03,01), CreatedOnFAS=new DateTime(2020,03,01),FundPerformanceTime=11.62},
+            new FundDetails{FundId=39, FundName = "Test39", IsActive=0, StartDateOnFAS=new DateTime(2020,03,02), CreatedOnFAS=new DateTime(2020,03,02),FundPerformanceTime=10.40},
+            new FundDetails{FundId=40, FundName = "Test40", IsActive=0, StartDateOnFAS=new DateTime(2020,03,03), CreatedOnFAS=new DateTime(2020,03,03),FundPerformanceTime=8.44},
+            new FundDetails{FundId=41, FundName = "Test41", IsActive=1, StartDateOnFAS=new DateTime(2020,03,04), CreatedOnFAS=new DateTime(2020,03,04),FundPerformanceTime=14.99},
+            new FundDetails{FundId=42, FundName = "Test42", IsActive=0, StartDateOnFAS=new DateTime(2020,03,05), CreatedOnFAS=new DateTime(2020,03,05),FundPerformanceTime=15.42},
+            new FundDetails{FundId=43, FundName = "Test43", IsActive=1, StartDateOnFAS=new DateTime(2020,03,06), CreatedOnFAS=new DateTime(2020,03,06),FundPerformanceTime=9.85},
+            new FundDetails{FundId=44, FundName = "Test44", IsActive=0, StartDateOnFAS=new DateTime(2020,03,07), CreatedOnFAS=new DateTime(2020,03,07),FundPerformanceTime=12.76},
+            new FundDetails{FundId=45, FundName = "Test45", IsActive=1, StartDateOnFAS=new DateTime(2020,03,08), CreatedOnFAS=new DateTime(2020,03,08),FundPerformanceTime=14.21},
+            new FundDetails{FundId=46, FundName = "Test46", IsActive=0, StartDateOnFAS=new DateTime(2020,03,09), CreatedOnFAS=new DateTime(2020,03,09),FundPerformanceTime=12.99},
+            new FundDetails{FundId=47, FundName = "Test47", IsActive=1, StartDateOnFAS=new DateTime(2020,03,10), CreatedOnFAS=new DateTime(2020,03,10),FundPerformanceTime=9.93},
+            new FundDetails{FundId=48, FundName = "Test48", IsActive=0, StartDateOnFAS=new DateTime(2020,03,11), CreatedOnFAS=new DateTime(2020,03,11),FundPerformanceTime=14.08},
+            new FundDetails{FundId=49, FundName = "Test49", IsActive=1, StartDateOnFAS=new DateTime(2020,03,12), CreatedOnFAS=new DateTime(2020,03,12),FundPerformanceTime=10.55},
+            new FundDetails{FundId=50, FundName = "Test50", IsActive=1, StartDateOnFAS=new DateTime(2020,03,13), CreatedOnFAS=new DateTime(2020,03,13),FundPerformanceTime=13.50},
+            new FundDetails{FundId=51, FundName = "Test51", IsActive=0, StartDateOnFAS=new DateTime(2020,03,14), CreatedOnFAS=new DateTime(2020,03,14),FundPerformanceTime=10.42},
+            new FundDetails{FundId=52, FundName = "Test52", IsActive=1, StartDateOnFAS=new DateTime(2020,03,15), CreatedOnFAS=new DateTime(2020,03,15),FundPerformanceTime=9.14},
+            new FundDetails{FundId=53, FundName = "Test53", IsActive=1, StartDateOnFAS=new DateTime(2020,03,16), CreatedOnFAS=new DateTime(2020,03,16),FundPerformanceTime=13.13},
+            new FundDetails{FundId=54, FundName = "Test54", IsActive=0, StartDateOnFAS=new DateTime(2020,03,17), CreatedOnFAS=new DateTime(2020,03,17),FundPerformanceTime=12.69},
+            new FundDetails{FundId=55, FundName = "Test55", IsActive=1, StartDateOnFAS=new DateTime(2020,03,18), CreatedOnFAS=new DateTime(2020,03,18),FundPerformanceTime=10.88},
+            new FundDetails{FundId=56, FundName = "Test56", IsActive=0, StartDateOnFAS=new DateTime(2020,03,19), CreatedOnFAS=new DateTime(2020,03,19),FundPerformanceTime=10.94},
+            new FundDetails{FundId=57, FundName = "Test57", IsActive=1, StartDateOnFAS=new DateTime(2020,03,20), CreatedOnFAS=new DateTime(2020,03,20),FundPerformanceTime=11.04},
+            new FundDetails{FundId=58, FundName = "Test58", IsActive=0, StartDateOnFAS=new DateTime(2020,03,21), CreatedOnFAS=new DateTime(2020,03,21),FundPerformanceTime=9.93},
+            new FundDetails{FundId=59, FundName = "Test59", IsActive=1, StartDateOnFAS=new DateTime(2020,03,22), CreatedOnFAS=new DateTime(2020,03,22),FundPerformanceTime=11.90},
+            new FundDetails{FundId=60, FundName = "Test60", IsActive=0, StartDateOnFAS=new DateTime(2020,03,23), CreatedOnFAS=new DateTime(2020,03,23),FundPerformanceTime=8.03},
+            new FundDetails{FundId=61, FundName = "Test61", IsActive=1, StartDateOnFAS=new DateTime(2020,03,24), CreatedOnFAS=new DateTime(2020,03,24),FundPerformanceTime=15.02},
+            new FundDetails{FundId=62, FundName = "Test62", IsActive=0, StartDateOnFAS=new DateTime(2020,03,25), CreatedOnFAS=new DateTime(2020,03,25),FundPerformanceTime=12.04},
+            new FundDetails{FundId=63, FundName = "Test63", IsActive=1, StartDateOnFAS=new DateTime(2020,03,26), CreatedOnFAS=new DateTime(2020,03,26),FundPerformanceTime=10.52},
+            new FundDetails{FundId=64, FundName = "Test64", IsActive=0, StartDateOnFAS=new DateTime(2020,03,27), CreatedOnFAS=new DateTime(2020,03,27),FundPerformanceTime=12.49},
+            new FundDetails{FundId=65, FundName = "Test65", IsActive=1, StartDateOnFAS=new DateTime(2020,03,28), CreatedOnFAS=new DateTime(2020,03,28),FundPerformanceTime=15.73},
+            new FundDetails{FundId=66, FundName = "Test66", IsActive=1, StartDateOnFAS=new DateTime(2020,03,29), CreatedOnFAS=new DateTime(2020,03,29),FundPerformanceTime=10.81},
+            new FundDetails{FundId=67, FundName = "Test67", IsActive=0, StartDateOnFAS=new DateTime(2020,03,30), CreatedOnFAS=new DateTime(2020,03,30),FundPerformanceTime=10.89},
+            new FundDetails{FundId=68, FundName = "Test68", IsActive=1, StartDateOnFAS=new DateTime(2020,03,31), CreatedOnFAS=new DateTime(2020,03,31),FundPerformanceTime=11.90}
+              
         };
 
        ClientDetails[] clientDetails = new ClientDetails[]
@@ -72,8 +104,10 @@ namespace Controllers
             new ClientDetails{ClientId=17, ClientName = "Client17",  IsActive=0, StartDateOnFAS=new DateTime(2017,12,18), CreatedOnFAS=new DateTime(2017,12,18),FundId = new[] {18,19,20,17,13,12,15,9,1,3,35,29,25}},
             new ClientDetails{ClientId=18, ClientName = "Client18",  IsActive=1, StartDateOnFAS=new DateTime(2018,12,18), CreatedOnFAS=new DateTime(2018,12,18),FundId = new[] {19,20,21,3,5,7,11,23,27,32,37}},
             new ClientDetails{ClientId=19, ClientName = "Client19",  IsActive=1, StartDateOnFAS=new DateTime(2019,12,18), CreatedOnFAS=new DateTime(2019,12,18),FundId = new[] {20,21,22,6,9,11,13,15,17,19,27}},
-            new ClientDetails{ClientId=20, ClientName = "Client20",  IsActive=1, StartDateOnFAS=new DateTime(2020,4,15), CreatedOnFAS=new DateTime(2020,4,15),FundId = new[] {1,3,5,7,9,11,13,15,17,19,21,23,27,29,31,33,35,37}}
+            new ClientDetails{ClientId=20, ClientName = "Client20",  IsActive=1, StartDateOnFAS=new DateTime(2020,4,15), CreatedOnFAS=new DateTime(2020,4,15),FundId = new[] {1,3,5,7,9,11,13,15,17,19,21,23,27,29,31,33,35,37}},
+            new ClientDetails{ClientId=21, ClientName = "Client21",  IsActive=0, StartDateOnFAS=new DateTime(2020,4,16), CreatedOnFAS=new DateTime(2020,4,16),FundId = new[] {38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68}}
         };
+
         [HttpGet("Funds")]
         public IEnumerable<FundDetails> ListAllfunds()
         {
@@ -96,6 +130,7 @@ namespace Controllers
             return retVal;
 
         }
+
 
         // [HttpGet("description/{desart}")]
         // public IEnumerable<Products> ListProductsByDescription(string desart)
